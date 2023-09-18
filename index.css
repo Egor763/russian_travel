@@ -1,0 +1,23 @@
+@import url('./vendor/fonts/inter.css');
+@import url('./blocks/page.css');
+
+@import url('./blocks/header/header.css');
+@import url('./blocks/header/header-adapt.css');
+
+@import url('./blocks/lead/lead.css');
+@import url('./blocks/lead/lead-adapt.css');
+
+@import url('./blocks/intro/intro.css');
+@import url('./blocks/intro/intro-adapt.css');
+
+@import url('./blocks/photo-grid/photo-grid.css');
+@import url('./blocks/photo-grid/photo-grid-adapt.css');
+
+@import url('./blocks/places/places.css');
+@import url('./blocks/places/places-adapt.css');
+
+@import url('./blocks/cover/cover.css');
+@import url('./blocks/cover/cover-adapt.css');
+
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/footer/footer-adapt.css');
