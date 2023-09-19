@@ -15,4 +15,10 @@
   align-items: center;
   justify-content: center;
   padding: 28px 48px 24px;
+  background-color: #2a2c2f;
+  color: white;
+}
+
+.page__intro {
+  margin: 92px 0 92px 100px;
 }
