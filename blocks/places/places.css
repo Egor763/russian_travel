@@ -45,6 +45,8 @@
   line-height: 22px;
   font-size: 18px;
   font-weight: 400;
+  border-bottom: 2px solid white;
+  width: fit-content;
 }
 
 .places__image {
