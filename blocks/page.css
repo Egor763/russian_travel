@@ -19,6 +19,11 @@
   color: white;
 }
 
+.hover__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .page__intro {
   margin: 92px 0 92px 100px;
 }
