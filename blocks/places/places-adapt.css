@@ -64,6 +64,7 @@
 
   .places__container {
     margin-bottom: 66px;
+    margin-left: 0;
   }
 
   .places__container-item {
@@ -75,6 +76,13 @@
   .places__title {
     line-height: 35px;
     font-size: 32px;
+    margin-left: 16px;
+    width: 288px;
+  }
+
+  .places__url {
+    margin-left: 16px;
+    width: 288px;
   }
 
   .places__image {
@@ -84,5 +92,6 @@
 
   .places__paragraph {
     width: 288px;
+    margin-left: 16px;
   }
 }

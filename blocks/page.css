@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.root {
+  background: #2a2c2f;
+}
+
 .page {
   font-family: 'Inter', 'Arial', sans-serif;
   max-width: 1280px;
@@ -14,9 +18,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 28px 48px 24px;
+  padding: 28px 0 24px;
   background-color: #2a2c2f;
   color: white;
+  margin: 0 auto;
 }
 
 .hover__link:hover {
@@ -25,12 +30,26 @@
 }
 
 .page__intro {
-  margin: 92px 0 92px 100px;
+  margin: 92px 0 92px;
 }
 
 @media screen and (max-width: 800px) {
   .page__intro {
     margin: 88px 0;
+  }
+}
+
+.page__footer {
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 700px) {
+  .page {
+    padding: 28px 0 24px;
+  }
+
+  .page__intro {
+    margin: 64px 0;
   }
 }
 

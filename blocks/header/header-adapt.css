@@ -4,6 +4,12 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .header {
     width: 288px;
@@ -19,6 +25,10 @@
   }
 
   .header__links-item {
+    margin: 0;
+  }
+
+  .header__link {
     line-height: 20px;
     font-size: 18px;
   }
