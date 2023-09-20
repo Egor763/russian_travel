@@ -23,6 +23,12 @@
   margin: 92px 0 92px 100px;
 }
 
+@media screen and (max-width: 800px) {
+  .page__intro {
+    margin: 88px 0;
+  }
+}
+
 .page__footer {
   margin-top: 92px;
 }
